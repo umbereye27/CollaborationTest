@@ -88,7 +88,6 @@ label{
 textarea::placeholder{
     color: rgb(148, 147, 147);
     font-size: 100%;
-    padding: 10px;
     font-family: 'Poppins', sans-serif;
 }
 #submit{
