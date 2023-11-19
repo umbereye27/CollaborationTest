@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p class="p">Thank you for taking the time to help us improve the platform</p>
+    <div id="survey-form">
+    <form>
+
+      <div class="text"><label id="name-label">Name</label><input class="form-control" id="name" type="text"required placeholder="Enter your Name"/></div><br>
+
+      <div class="text"><label id="email-label"> Email</label><input class="form-control" id="email" type="email" required placeholder="Enter your Email"/></div><br>
+
+      <div class="text"><label id="number-label">Ages (Optional)</label><input class="form-control" id="number" type="number" min="10" max="60" placeholder="age"/></div>
+
+      <!-- <div class="dropdown-form"> -->
+        <p>Which option best describes your current role?</p>
+      
+      <select id="most-like" name="mostLike" class="form-select" required>
+        <option disabled selected value>Select an option</option>
+        <option value="challenges">Challenges</option>
+        <option value="projects">Projects</option>
+        <option value="community">Community</option>
+        <option value="openSource">Open Source</option>
+      </select>
+      <!-- </div> -->
+
+      <div>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label>
+            <input class="input-radio" type="radio" id="survey-form" value="definitely" name="choose"/>definitely
+        </label><br>
+        <label><input class="input-radio" type="radio" id="survey-form" value="maybe" name="choose"/>maybe
+        </label><br>
+        <label><input class="input-radio" type="radio" id="survey-form" value="not-sure" name="choose">Not-sure
+        </label></div>
+      
+      <!-- <div class="dropdown-form"> -->
+        <p>What is your favorite feature of freeCodeCamp?</p>
+        <select class="form-select">
+        <option>Select on Option</option>
+        <option>Challenges</option>
+        <option>Project</option>
+        <option>Community</option>
+        <option>Open Source</option>
+        </select>
+        <!-- </div> -->
+
+     <div >
+        <p>What would you like to see improved? (Check all that apply)</p>
+      <label>
+        <input class="input-checkbox" type="checkbox" id="survey-form" value="Front-end Projects" name="prefer"/>Front-end Projects
+      </label><br>
+
+      <label>
+        <input class="input-checkbox" type="checkbox" id="survey-form" value="Back-end Projects" name="prefer"/>Back-end Projects
+      </label><br>
+
+      <label>
+        <input class="input-checkbox"  type="checkbox" id="survey-form" value="Data Visualization" name="prefer"/>Data Visualization
+      </labe><br>
+
+      <label>
+        <input class="input-checkbox" type="checkbox" id="survey-form" value="Challenges" name="prefer"/>Challenges
+      </label><br>
+
+      <label>
+        <input class="input-checkbox" type="checkbox" id="survey-form" value="Open Source Community" name="prefer"/>Open Source Community
+      </label><br>
+
+      <label>
+        <input class="input-checkbox" type="checkbox" id="survey-form" value="Gitter help rooms" name="prefer"/> Gitter help rooms
+      </label><br>
+
+      <label>
+        <input class="input-checkbox" type="checkbox" id="survey-form" value="Videos" name="prefer"/>Videos
+      </label><br>
+
+      <label>
+        <input class="input-checkbox" type="checkbox" id="survey-form" value="City Meetups" name="prefer"/>City Meetups
+      </label><br>
+
+      <label>
+        <input class="input-checkbox" type="checkbox" id="survey-form" value="Wiki" name="prefer"/>Wiki
+      </label><br>
+
+      <label>
+        <input class="input-checkbox" type="checkbox" id="survey-form" value="Forum" name="Forum"/>Forum
+      </label><br>
+
+      
+    </div>
+
+      <div>
+        <p class="">Any comments or suggestions? </p>
+        <textarea class="comment" id="survey-form" placeholder="Enter your comment here..."></textarea><br>
+      </div>
+
+      <div>
+        <input class="submit-button" type="submit" id="submit"/>
+      </div>
+
+    </form>
+    </div>
+
+  </body>
+</html>
